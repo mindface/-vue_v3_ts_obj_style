@@ -1,0 +1,40 @@
+
+.side-content
+  .card
+    padding: 16px 16px 0
+    .title
+      width: 100%
+      white-space: nowrap
+      text-overflow: ellipsis
+      overflow: hidden
+
+.main-content
+  .card
+    width: 100%
+    padding: 16px
+    &:nth-child(1)
+      max-width: 70%
+      .item
+        .title
+          width: 100%
+    &:nth-child(2)
+      max-width: 30%
+      .item
+        overflow: hidden
+        .title
+          width: 100%
+          white-space: nowrap
+          text-overflow: ellipsis
+          overflow: hidden
+        .sentence
+          width: 100%
+          white-space: nowrap
+          text-overflow: ellipsis
+          overflow: hidden
+
+      
+.player-dashboard
+  .main-content
+    .card
+      &:nth-child(1)
+        max-width: 100%

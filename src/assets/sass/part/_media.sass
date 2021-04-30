@@ -1,0 +1,31 @@
+
+.dialog-media
+  .el-dialog
+    
+    width: 70%
+  .media
+    &--list
+    &__item
+      position: relative
+      display: inline-block
+      min-height: 120px
+      max-width: 120px
+      width: 100%
+      &:hover
+        .icons
+          opacity: 1
+      .icons
+        position: relative
+        z-index: 1
+        min-height: 120px
+        opacity: 0
+        transition: opacity 0.3s
+      .img
+        position: absolute
+        top: 0
+        left: 0
+        right: 0
+        bottom: 0
+        height: 100%
+        margin: auto
+

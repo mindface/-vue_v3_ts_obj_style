@@ -1,0 +1,60 @@
+
+html,
+body
+  height: 100%
+  width: 100%
+
+html
+  font-size: 62.5%!important
+
+*
+  box-sizing: border-box
+
+body
+  -webkit-font-feature-settings: palt
+          font-feature-settings: palt
+  -webkit-box-sizing: border-box
+  box-sizing: border-box
+  font-size: 62.5%
+  color: $color-blue-dark
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+  position: relative
+
+img
+  max-width: 100%
+  height: auto
+
+a
+  text-decoration: none
+  -webkit-transition-duration: 1s
+          transition-duration: 1s
+
+.link
+  display: inline-block
+  padding: 8px 14px
+  cursor: pointer
+  color: $color-blue-dark
+  &:hover
+    background-color: $color-blue-dark
+    color: $color-white
+
+.d-flex
+  display: flex
+  flex-wrap: wrap
+  &-c
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
+    align-items: center
+  &-s
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+
+.el-tiptap-editor
+  & > div.el-tiptap-editor__content
+    padding: 0
+    & > div
+      padding: 30px 20px
+      font-size: 1.4rem
